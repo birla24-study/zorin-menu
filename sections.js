@@ -188,6 +188,7 @@ var CategoriesListSection = GObject.registerClass({
 
         this._scrollBox.set_policy(St.PolicyType.NEVER, St.PolicyType.AUTOMATIC);
         this._scrollBox.clip_to_allocation = true;
+        this._scrollBox.get_vscroll_bar().hide();
         this._scrollBox.add_actor(this._categoriesBox); // Only use add_actor as add_child and set_child don't work with scrollviews
         this.set_child(this._scrollBox);
         this._load();
@@ -281,6 +282,7 @@ var AppsListSection = GObject.registerClass({
         });
         this._scrollBox.set_policy(St.PolicyType.NEVER, St.PolicyType.AUTOMATIC);
         this._scrollBox.clip_to_allocation = true;
+        this._scrollBox.get_vscroll_bar().hide();
         this._scrollBox.add_actor(this._appsBox); // Only use add_actor as add_child and set_child don't work with scrollviews
         this.set_child(this._scrollBox);
         this._load();

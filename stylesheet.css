@@ -23,6 +23,11 @@
     border-radius: 999px;
 }
 
+.apps-menu .v-scroll-bar {
+    width: 0px;
+    opacity: 0;
+}
+
 .vertical-separator {
     width: 0;
     margin: 0 12px;
