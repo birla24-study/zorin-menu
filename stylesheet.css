@@ -1,0 +1,151 @@
+/*
+ * Zorin Menu: The official applications menu for Zorin OS.
+ *
+ * Copyright (C) 2016-2023 Zorin OS Technologies Ltd.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+.menu-user-avatar {
+    background-size: contain;
+    border: none;
+    border-radius: 999px;
+}
+
+.vertical-separator {
+    width: 0;
+    margin: 0 12px;
+    background-color: transparent;
+    border-top-width: 0;
+    border-top-style: none;
+    border-right-width: 0;
+    border-right-style: solid;
+    border-bottom-width: 0;
+    border-bottom-style: none;
+    border-left-width: 0;
+    border-left-style: none;
+}
+
+.session-buttons-section {
+    spacing: 0;
+    padding: 1px 0 0 0;
+}
+
+.popup-menu-ornament { width: 0 !important; }
+
+.session-buttons-section .system-menu-action {
+    -st-icon-style: symbolic;
+    border-radius: 999px;
+    padding: 9px 12px !important;
+    margin: 0 0.4em !important;
+    spacing: 0 !important;
+    box-shadow: none;
+}
+
+.session-buttons-section .system-menu-action > StIcon {
+    icon-size: 16px;
+}
+
+.search-entry {
+    margin: 12px 0 0 0;
+}
+
+.apps-box {
+    width: 20em;
+}
+
+.shortcuts-box {
+    width: 15em;
+}
+
+.shortcuts-box .popup-separator-menu-item .popup-separator-menu-item-separator {		
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list-search-result {
+    padding: 0;
+    spacing: 0;
+    border: none;
+    text-align: left;
+}
+
+.all-layout-box,
+.apps-only-layout-box,
+.shortcuts-only-layout-box {
+    padding: 6px;
+}
+
+.grid-box {
+    width: 52.314em;
+}
+
+.grid-layout-box {
+    padding: 8px;
+}
+
+.grid-layout-box .search-entry {
+    margin: 0 0 14px 0;
+}
+
+.grid-layout-box .apps-grid {
+    padding-bottom: 8px;
+}
+
+.grid-layout-box .app-item {
+    height: 6.5em;
+    width: 6.5em;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+    spacing: 4px;
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.grid-layout-box .session-box {
+    spacing: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 28px;
+}
+
+.grid-layout-box .session-box .user-menu-item {
+    border-radius: 999px;
+}
+.grid-layout-box .session-box .user-menu-item:ltr {
+    padding-left: 2px;
+}
+.grid-layout-box .session-box .user-menu-item:rtl {
+    padding-right: 2px;
+}
+
+.grid-layout-box .session-box .system-menu-action {
+    -st-icon-style: symbolic;
+    border-radius: 999px;
+    padding: 13px 16px !important;
+    margin: 0 !important;
+    spacing: 0 !important;
+    box-shadow: none;
+}
+
+.grid-layout-box .session-box .system-menu-action > StIcon {
+    icon-size: 16px;
+}
